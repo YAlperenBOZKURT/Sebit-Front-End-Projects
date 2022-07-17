@@ -1,2 +1,4 @@
 # Sebit-Front-End-Projects
-Burada Sebit Front-End Bootcamp için yapılan projelere ulaşabilirsiniz.
+
+Sebit Front-end Bootcamp dersleri ve çalışmalarına buradan ulaşabilirsiniz.
+
