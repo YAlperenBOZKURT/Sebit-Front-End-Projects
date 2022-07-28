@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+
+    <title>Document</title>
+
+    <style>
+        #navDiv{
+      display: none;
+      height: 1020px;
+      width: auto;
+      border-radius: 0px 30px 30px 0px;
+      
+    }
+    .nav-link {
+      font-size: 28px;
+    }
+    .navbar-brand {
+      font-family:"Brush Script MT", cursive ;
+      font-size: 30px;
+    }
+   
+    .navbar-toggler-icon {
+      width: 40px;
+    }
+    .nav-link {
+      border: 1px solid #00b0f3 !important;
+      border-radius: 50px !important;
+      margin: 20px 0px !important;
+      justify-content: center;
+
+    }
+    .nav-link:hover {
+      background-color: #00b0f3;
+    }
+    #first {
+        padding: 300px 0px;
+    }
+    .meImg {
+      border-radius: 50%;
+    width: 300px;
+    }
+    .landing {
+      margin-top: 280px;
+      display: flex;
+    }
+    .landing-left {
+      text-align: center;
+    }
+    .landing-right {
+      text-align: center;
+      padding-top: 90px;
+    }
+    .sideBar{
+      position: relative;
+   
+}
+#about {
+        padding: 300px 0px;
+    }
+.whoIamLeft {
+  padding-top: 85px;
+  
+}
+#workImg {
+  margin-right: 10px;
+  width: 120px;
+    
+
+}
+.workDiv {
+  align-items: center;
+  border: 1px solid black;
+    border-radius: 30px;
+    padding: 0px 10px;
+    margin-bottom: 5px;
+    
+}
+.workDiv:hover {
+  background-color:  #00b0f3;
+
+}
+
+#experience {
+    
+        padding: 500px 0px;
+    
+}
+#skil {
+        padding: 500px 0px;
+    }
+#education {
+        padding: 500px 0px;
+    }
+.skills img {
+  width: 160px;
+    height: 160px;
+    text-align: center;
+    
+}
+.skillbox {
+  background: #fafafa;
+    box-shadow: 0 10px 20px rgb(0 176 243 / 50%);
+    border-radius: 10px;
+   width: auto;
+   height: auto;
+    margin: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    justify-content: center;
+    
+}
+.skillbox h6 {
+  
+  font-family: Big Shoulders Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 1rem;
+}
+.skills h1 {
+  text-align: center;
+}
+.eduImg {
+  width: 600px;
+    height: auto;
+}
+
+.page-section h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  
+}
+.page-section {
+  margin-bottom: 50px;
+}
+.footer {
+  height: 150px;
+  background-color: #343a40;
+  
+}
+.footer ul {
+  display: flex;
+  flex-direction: column;
+
+  list-style-type: none;
+  margin-bottom: 0px !important;
+}
+.footer a {
+  
+  text-decoration: none;
+  color: white;
+
+}
+.footer h2 {
+  color: white;
+}
+.astrodivider {
+  margin:64px auto;
+  width:400px; 
+  max-width: 100%;
+  position:relative;
+}
+
+.astrodividermask { 
+    overflow:hidden; height:20px; 
+}
+
+.astrodividermask:after { 
+      content:''; 
+      display:block; margin:-25px auto 0;
+      width:100%; height:25px;  
+        border-radius:125px / 12px;
+       box-shadow:0 0 8px #049372;
+}
+.astrodivider span {
+    width:50px; height:50px; 
+    position:absolute; 
+    bottom:100%; margin-bottom:-25px;
+    left:50%; margin-left:-25px;
+    border-radius:100%;
+   box-shadow:0 2px 4px #4fb39c;
+    background:#fff;
+}
+.astrodivider i {
+    position:absolute;
+    top:4px; bottom:4px;
+    left:4px; right:4px;
+    border-radius:100%;
+    border:1px dashed #68beaa;
+    text-align:center;
+    line-height:40px;
+    font-style:normal;
+     color:#049372;
+}
+
+
+@media screen and (max-width: 992px) {
+
+.meImg {
+    width: 80%;
+}
+.landing {
+    flex-direction: column;
+}
+#first {
+    display: block !important;
+}
+.navbar-brand {
+      
+      font-size: 28px;
+    }
+.whoIam {
+    display: block !important;
+}
+.whoIam  img{
+    padding-top: 30px;
+    width: 100%;
+}
+.experience {
+    display: block !important;
+    text-align: center;
+}
+.experience img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.education {
+    display: block !important;
+}
+.education img {
+    width: 100%;
+}
+
+#first {
+        padding: 100px 0px;
+    }
+#about {
+        padding: 100px 0px;
+    }
+#experience {
+    
+    padding: 300px 0px;
+
+}
+#skil {
+    padding: 300px 0px;
+}
+#education {
+    padding: 300px 0px;
+}
+
+@media screen and (max-width: 600px) {
+    #first {
+        padding: 50px 0px;
+    }
+#about {
+        padding: 50px 0px;
+    }
+#experience {
+    
+    padding: 100px 0px;
+
+}
+#skil {
+    padding: 100px 0px;
+}
+#education {
+    padding: 100px 0px;
+}
+}
+
+
+
+}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark col-lg-12" aria-label="First navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Yusuf Alperen BOZKURT</a>
+          <div class="mobileIcon"  onclick="toggle()">
+            <button class="navbar-toggler"  type="button" >
+              <span class="navbar-toggler-icon" style="width: 40px;"></span>
+            </button>
+          </div>
+          </div>
+      </nav>
+        <div class="sideBar">
+            <div class="flex-shrink-0 p-3 text-bg-dark "id="navDiv" style="width: 280px;">
+            
+              <hr>
+              <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white " aria-current="page">
+                    <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"/></svg>
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="#about" class="nav-link text-white">
+                    <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"/></svg>
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a href="#experience" class="nav-link text-white">
+                    <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
+                    Experinces
+                  </a>
+                </li>
+                <li>
+                  <a href="#education" class="nav-link text-white">
+                    <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#table"/></svg>
+                    Education
+                  </a>
+                </li>
+                <li>
+                  <a href="#skill" class="nav-link text-white">
+                    <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
+                    Skills
+                  </a>
+                </li>
+                <li>
+                  <a href="#contact" class="nav-link text-white">
+                    <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"/></svg>
+                    Contact
+                  </a>
+                </li>
+               
+              </ul>
+              <hr>
+               <div class="dropdown">
+                <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="contactsBlue.svg" alt="" width="100px" height="200px" class="rounded-circle me-2">
+                  <strong>Social Media
+                  </strong>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                  <li><a class="dropdown-item" href="https://www.linkedin.com/in/yalperenbozkurt/">Linkedin</a></li>
+                  <li><a class="dropdown-item" href="https://github.com/YAlperenBOZKURT">Github</a></li>
+                  <li><a class="dropdown-item" href="https://www.instagram.com/yalperenbozkurt/">İnstagram</a></li>
+                 
+                  
+                </ul>
+              </div> 
+            </div>
+          </div>
+    
+      <div class="container d-flex" id="first">
+          <div class="landing-left col-lg-5">
+            <img src="DSC_0398.jpg" class="meImg" alt="first">
+          </div>
+          <div class="landing-right col-lg-6">
+            <h2>Froned Developer</h2>
+            <h1>Yusuf Alperen Bozkurt</h1>
+            <p>Problem solver and strong communicator eager to prove my value and talent, Motivated to advance and expand my skill through challenging projects. I have a focused on developing scalable and well-documented code. I enjoy working collaboratively but can also run with projects independently.
+  
+            </p>
+            <button type="submit" class="btn btn-primary">
+              Download Resume
+
+            </button>
+            <a href="#contact">
+                <button type="submit" class="btn btn-primary">
+                    Contact
+      
+                  </button>
+            </a>
+           
+  
+  
+          </div>
+        </div>
+        
+      <section  id="about">
+        <div class="container  d-flex whoIam">
+          <div class="left col-lg-5 whoIamLeft ">
+            <h1>Who I am</h1>
+            <p>
+    
+              Hello there , <br><br>
+              My name is Yusuf Alperen BOZKURT, I am a graduate of YıldızTechnical University Survey Engineering. I gained experience by doing long or short jobs in many sectors and companies. In this digital age where the world is now transitioning, I have set myself a goal to constantly improve myself in the field of software that is open to innovations and will meet the needs of the age. I develop myself with Youtube, Udemy, BTK Academy and various bootcamps. You can reach the projects I have done while developing myself from the links below.
+
+          </div>
+          <div class="right col-lg-5 ">
+            <div>
+              <img src="blueTheme-boy.5e8c2b60.svg" alt="">
+            </div>
+
+
+          </div>
+        </div>
+
+     
+      </section>
+      
+
+     
+      <section  id="experience">
+        <div class="container" style="text-align: center; margin-bottom: 50px;">
+          <h1>Experiences</h1>
+        </div>
+        <div class="container experience d-flex ">
+          
+          
+          <div class="left col-lg-8 experienceLeft ">
+            <div>
+              <img src="expBlue.6b15b99c.svg" alt="">
+            </div>
+
+          </div>
+          <div class="right">
+            <div class="d-flex workDiv">
+              <div class="exImg">
+                <img id="workImg" src="favpng_office-icon-work-icon.png" alt="">
+              </div>
+              <div class="expDetails">
+                <h6>Geomatic Engineer</h6>
+                <p>
+                  Korfez Engineering and Aerial Surveys inc.</p>
+              </div>
+             
+            </div>
+            <div class="d-flex workDiv">
+              <div class="exImg">
+                <img id="workImg" src="favpng_office-icon-work-icon.png" alt="">
+              </div>
+              <div class="expDetails">
+                <h6>Freelancer</h6>
+                <p>
+                  Korfez Engineering and Aerial Surveys inc.</p>
+              </div>
+             
+            </div>
+            <div class="d-flex workDiv">
+              <div class="exImg">
+                <img id="workImg" src="favpng_office-icon-work-icon.png" alt="">
+              </div>
+              <div class="expDetails">
+                <h6>Full Time Intern</h6>
+                <p>
+                  General Directorate of Land Registry and Cadastre</p>
+              </div>
+             
+            </div>
+            <div class="d-flex workDiv">
+              <div class="exImg">
+                <img id="workImg" src="favpng_office-icon-work-icon.png" alt="">
+              </div>
+              <div class="expDetails">
+                <h6>Part Time Officer</h6>
+                <p>
+                  Yildiz Technical University Circulating Capital</p>
+              </div>
+             
+            </div>
+            
+         
+           
+
+
+          </div>
+        </div>
+
+     
+      </section>
+
+
+    
+      <section class="skills" id="skill">
+        <div class="container">
+          <h1>Skills</h1>
+          <div class="row justify-content-center">
+
+            <div class="skillbox">
+              <img src="java.svg" alt=""> 
+              <br>
+              <h6>Java</h6>
+            </div>
+            <div class="skillbox">
+              <img  src="csharp.svg" alt="">
+              <br>
+              <h6>C#</h6>
+            </div>
+            <div class="skillbox">
+              <img src="python.svg" alt="">
+              <br>
+              <h6>Python</h6>
+            </div>
+
+            <div class="skillbox">
+              <img src="matlab.svg" alt="">
+              <br>
+              <h6>MatLab</h6>
+            </div>
+
+
+            <div class="skillbox">
+              <img src="bootstrap.svg" alt="">
+              <br>
+              <h6>Boostrap</h6>
+            </div>
+            <div class="skillbox">
+              <img src="html.svg" alt="">
+              <br>
+              <h6>Html</h6>
+            </div>
+            <div class="skillbox">
+              <img src="css.svg" alt="">
+              <br>
+              <h6>Css</h6>
+            </div>
+            <div class="skillbox">
+              <img src="pngwing.com.png" alt="">
+              <br>
+              <h6>SQL</h6>
+            </div>
+            <div class="skillbox">
+              <img src="QGIS_logo_minimal.svg" alt="">
+              <br>
+              <h6>QGIS  </h6>
+            </div>
+            <div class="skillbox">
+              <img src="logo_bg.png" alt="">
+              <br>
+              <h6>Netcad</h6>
+            </div>
+            <div class="skillbox">
+              <img src="microstation.jpg" alt="">
+              <br>
+              <h6>Microstation</h6>
+            </div>
+            <div class="skillbox">
+              <img src="ms programs.jpg" alt="">
+              <br>
+              <h6>MS Programs</h6>
+            </div>
+           
+           
+            
+           
+            
+            
+           
+          
+            
+
+
+
+          </div>
+         
+
+
+
+
+        </div>
+        
+      
+
+
+      </section>
+
+      
+      <section>
+        <div id="education">
+          <h1 class="text-center">Education</h1>
+          <div class="container education d-flex">
+           
+
+            <div class="leftside col-lg-6">
+
+              <img class="eduImg" src="eduBlue.54ca15e8.svg" alt="">
+
+
+            </div>
+
+            <div class="rightside d-flex flex-column justify-content-center">
+
+              <div class="d-flex eduDiv align-items-center">
+                <div class="schlImg">
+                  <img id="workImg" src="online-school-logo-by-Vexels.svg" alt="">
+                </div>
+                <div class="schlDetails">
+                  <h6>Bachelor of Engineering - Geomatic Engineer</h6>
+                  <p>
+                    Yildiz Technical University</p>
+                </div>
+
+
+
+            </div>
+            <div class="d-flex eduDiv align-items-center">
+              <div class="schlImg">
+                <img id="workImg" src="online-school-logo-by-Vexels.svg" alt="">
+              </div>
+              <div class="schlDetails">
+                <h6>High School</h6>
+                <p>
+                  Yavuz Sultan Selim Anatolian High School</p>
+              </div>
+
+
+
+          </div>
+
+
+          
+          </div>
+
+
+
+        </div>
+      </section>
+     
+      
+
+      <div class="astrodivider"><div class="astrodividermask"></div><span><i>&#10038;</i></span></div>
+      <br><br><br>
+      <section class="page-section" id="contact">
+        <h1>Contact</h1>
+        <div class="container">
+    
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                
+                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                            <label for="name">Full name</label>
+                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                        </div>
+                        
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                            <label for="email">Email address</label>
+                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                        </div>
+                        
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                            <label for="phone">Phone number</label>
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                        </div>
+                        
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                            <label for="message">Message</label>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                        </div>
+                       
+                        <button class="btn btn-primary btn-xl w-100 " id="submitButton" type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+      <footer class="footer"> 
+        <div class="container pt-3">
+          <ul class="" style="text-align: center;">
+            <li><a href="mailto:yalperenbozkurt@gmail.com">Email : yalperenbozkurt@gmail.com</a></li>
+            <li><a href="tel:+90 543 241 89 28">Phone : +90 543 241 89 28</a></li>
+            <li><a href="">Location : Ankara - Turkey</a></li>
+
+          </ul>
+
+        </div>       
+        <ul></ul>
+
+
+        <h2 class="d-flex justify-content-center">Made with by Alperen</h2>
+        
+        
+
+
+
+
+
+
+
+        
+      </footer>
+
+      
+    
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="project.js">
+
+
+    </script>
+
+</body>
+</html>
